@@ -14,7 +14,7 @@ void calcVol(box &vol);
 int main()
 {
 	box test = { "anno",1,2,3,4 };
-	//box test = {};
+	//box test = {}; //init with 0
 	showBox(test);
 	calcVol(test);
 	showBox(test);
