@@ -29,7 +29,7 @@ int main() {
 
 void velkepismena(string veta) {
 	
-	transform(veta.begin(), veta.end(), veta.begin(), ::toupper);
+	transform(veta.begin(), veta.end(), veta.begin(), toupper);
 	cout<< veta <<endl << endl;
 
 }
