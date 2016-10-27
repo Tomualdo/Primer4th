@@ -17,13 +17,9 @@ int main() {
 	{
 		cout << "Enter a string (q to quit): ";
 		cin.getline(input, dlzka);
-
-		if (input == "q" || input == "Q" || input == "\n")	{break;	}
-
 		velkepismena(input,dlzka);
 	
 	} while (true);
-
 
 	return 0;
 }
