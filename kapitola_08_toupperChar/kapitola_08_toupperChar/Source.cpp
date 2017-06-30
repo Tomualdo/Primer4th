@@ -48,7 +48,7 @@ void velkepismena(char *veta,const int dlzka) {
 		}
 	}
 
-	cout << temp<<" : toto je temp" << endl;
+	cout << temp<<" : toto je temporary" << endl;
 
 }
 
